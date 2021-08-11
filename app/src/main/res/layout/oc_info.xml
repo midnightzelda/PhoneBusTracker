@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/oc_toolbar"
+        android:background="@color/red"
+        android:elevation="5dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+    android:id="@+id/oc_item_stop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="1"
+    android:layout_margin="5dp"
+    android:text="@string/oc_stop"
+    android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:text="@string/oc_bus"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_margin="5dp"
+        android:text="@string/oc_destination"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_margin="5dp"
+        android:text="@string/oc_latitude"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:layout_margin="5dp"
+        android:text="@string/oc_longitude"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:layout_margin="5dp"
+        android:text="@string/oc_gps"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/oc_item_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="7"
+        android:layout_margin="5dp"
+        android:text="@string/oc_start"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/oc_item_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="8"
+        android:layout_margin="5dp"
+        android:text="@string/oc_finish"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/oc_add_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:text="@string/oc_addfav" />
+
+    <Button
+        android:id="@+id/oc_remove_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="10"
+        android:layout_column="0"
+        android:text="@string/oc_removefav" />
+
+    <ProgressBar
+        android:id="@+id/oc_info_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+
+</GridLayout>

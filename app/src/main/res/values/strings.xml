@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Main</string>
+    <string name="CBCNewsReaderText">CBC News Reader</string>
+    <string name="FoodNutritionDatabaseText">Food Nutrition Database</string>
+    <string name="MovieInformationText">Movie Information</string>
+    <string name="OCTranspoText">OC Transpo Bus Route App</string>
+
+    <string name="startButton">Start</string>
+    <string name="Help">Help</string>
+    <string name="help_msg">This is the main page that will allow you to access the individual activities in this application. From left to right, the details are below:
+        \n\nCBC News Reader - Made by Rae Ehret
+        \n\nFood Nutrition Database - Made by Sahnon Mahbub
+        \n\nMovie Information - Made by Zachary Seguin
+        \n\nOC Transpo Bus Route App - Made by Dylan Blake
+        \n\nFurther help can be found through the help feature in each activity.
+        \n\nImage reference: https://www.flickr.com/photos/uncalno/8538679708</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="favourite">Favourite</string>
+    <string name="go">Go!</string>
+    <string name="warning">Warning</string>
+    <string name="exit">Exit</string>
+    <string name="exit_msg">Exiting will finish this activity</string>
+
+    <string name="foodTitle">Food</string>
+    <string name="food_help">Author: Sahnon.
+        \nVersion: 3
+        \n\nEnter a food item in the search bar, click on a search result to open a screen with more details regarding the result. You may choose to add the item to a favorites list.
+        \n\nUpon entering the favorites list, tapping an item will show the details again but allow you to set a tag or remove from favorites.
+        \n\nA tag will allow you to look at the minimum, maximum, total and average kilo-calorie count of all the foods set with the same tag. To get this information, you have to enter the tag name into the search bar in the favorites list and tap the corresponding button.</string>
+    <string name="food_item_label">Item: </string>
+    <string name="food_brand_label">Brand: </string>
+    <string name="food_energy_label">Energy (kcal): </string>
+    <string name="food_carbs_label">Carbohydrates (g): </string>
+    <string name="food_fat_label">Fat (g): </string>
+    <string name="food_protein_label">Protein (g): </string>
+    <string name="food_fiber_label">Fiber (g): </string>
+    <string name="food_remove_favorites">Remove from favorites</string>
+    <string name="food_tag">Tag: </string>
+    <string name="food_tag_not_set">Not set</string>
+    <string name="food_set_tag">Set a tag</string>
+    <string name="food_add_favorites">Add to favorites</string>
+    <string name="food_exit_msg">Do you wish to exit? Your favorites will be saved.</string>
+    <string name="food_add_msg">Your item has been added to favorites.</string>
+    <string name="food_remove_msg">Your item has been deleted from favorites.</string>
+    <string name="food_tag_msg">Your tag is set.</string>
+    <string name="food_no_tag_msg">No such tag exists.</string>
+    <string name="food_tag_info_title">Info on selected tag</string>
+    <string name="food_max">Maximum energy (kcal): </string>
+    <string name="food_min">Minimum energy (kcal): </string>
+    <string name="food_avg">Average energy (kcal): </string>
+    <string name="food_total">Total energy (kcal): </string>
+    <string name="food_input_tag">Input tag</string>
+    <string name="food_info_button">Get info</string>
+    <string name="food_go_favorites">Go to favorites</string>
+    <string name="food_search">Search</string>
+    <string name="food_insert_search">Insert search item</string>
+    <string name="food_activity_msg">This is the Food Nutrition Database</string>
+    <string name="food_search_info_msg">Your search results will be shown below.</string>
+
+
+    <string name="news_title_abbr">News</string>
+    <string name="news_goto">Go to Article</string>
+    <string name="news_credits">Stat.</string>
+    <string name="news_stats">Statistics of Saved Articles</string>
+    <string name="news_stats_articles">No. of articles: </string>
+    <string name="news_stats_average">Avg. word count: </string>
+    <string name="news_stats_min">Min. word count: </string>
+    <string name="news_stats_max">Max. word count: </string>
+    <string name="news_error">You are already in CBC News Reader</string>
+    <string name="news_help">Author: Rae Ehret. \nVersion: 2 \nFrom the list of titles, click/tap on a title to open a screen with more article information and a link to the article.</string>
+    <string name="news_exit">Return to main activity?</string>
+    <string name="news_load">Saved</string>
+    <string name="news_save">Save Article</string>
+
+    <string name="movie_my_movies">My movies</string>
+    <string name="movie_saveto">Save to my movies</string>
+    <string name="movie_search">Search</string>
+    <string name="movie_info">Author: Zachary Seguin, MovieActivity 2.0
+        Select a movie from the list on the right to see detailed information about it, or click save to my movies to save the movie info for later.</string>
+    <string name="movie_toolBar">Movies</string>
+    <string name="movie_toast">Welcome to movies</string>
+    <string name="movie_snack">Saved to your movies</string>
+
+    <string name="oc_main_text">OC Transpo</string>
+    <string name="oc_stop_hint">Enter Stop number here ex\"3075\"</string>
+    <string name="oc_bus_hint">Enter Bus number here ex\"95\"</string>
+    <string name="oc_help">Author: Dylan Blake. \nVersion: 2 \nEnter your bus stop in the search bar, click search to search for results for that stop.</string>
+    <string name="oc_stop">Stop: </string>
+    <string name="oc_bus">Bus: </string>
+    <string name="oc_destination">Destination</string>
+    <string name="oc_latitude">Latitude: </string>
+    <string name="oc_longitude">Longitude: </string>
+    <string name="oc_gps">GPS Speed: </string>
+    <string name="oc_start">Start Time: </string>
+    <string name="oc_finish">Adjusted Time: </string>
+    <string name="oc_addfav">Add to favourites </string>
+    <string name="oc_removefav">Remove from favourites </string>
+    <string name="oc_tool">Error</string>
+</resources>

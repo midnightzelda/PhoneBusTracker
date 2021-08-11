@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activité principale</string>
+    <string name="CBCNewsReaderText">Fil de nouvelles de CBC</string>
+    <string name="FoodNutritionDatabaseText">Base de données sur la nutrition alimentaire</string>
+    <string name="MovieInformationText">Les films</string>
+    <string name="OCTranspoText">Itinéraires d\'autobus d\'OC Transpo</string>
+
+    <string name="startButton">Début</string>
+    <string name="Help">Aide</string>
+    <string name="help_msg">Ceci est la page principale qui vous permettra d\’accéder aux différentes activités de cette application. De gauche à droite, les détails sont ci-dessous:
+        \n\nCBC News Reader - Réalisé par Rae Ehret
+        \n\nBase de Données sur la Nutrition Alimentaire - Réalisé par Sahnon Mahbub
+        \n\nInformations sur le film - Réalisé par Zachary Seguin
+        \n\nApplication de ligne de bus OC Transpo - Réalisée par Dylan Blake
+        \n\nVous trouverez une aide supplémentaire dans la fonction d\'aide de chaque activité.
+        \n\nImage reference: https://www.flickr.com/photos/uncalno/8538679708</string>
+    <string name="ok">D\'accord</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="search">Chercher</string>
+    <string name="favourite">Préféré</string>
+    <string name="go">Go!</string>
+    <string name="warning">Avertissement</string>>
+    <string name="exit">Sortir</string>
+    <string name="exit_msg">Quitter finira cette activité</string>
+
+    <string name="foodTitle">Aliments</string>
+    <string name="food_help">Auteur: Sahnon.
+        \nVersion: 1
+        \n\nEntrez un aliment dans la barre de recherche, cliquez sur un résultat de recherche pour ouvrir un écran avec plus de détails sur le résultat. Vous pouvez choisir d\'ajouter l\'élément à une liste de favoris.
+        \n\nEn entrant dans la liste des favoris, taper sur un élément affichera à nouveau les détails, mais vous permettra de définir une étiquette ou de supprimer des favoris.
+        \n\nUne balise vous permettra de consulter le nombre minimum, maximum, total et moyen de kilo-calories de tous les aliments portant la même étiquette. Pour obtenir ces informations, vous devez entrer le nom de la balise dans la barre de recherche de la liste des favoris et appuyer sur le bouton correspondant.</string>
+    <string name="food_item_label">Article: </string>
+    <string name="food_brand_label">Marque: </string>
+    <string name="food_energy_label">Énerg (kcal): </string>
+    <string name="food_carbs_label">Glucides (g): </string>
+    <string name="food_fat_label">Graisse (g):</string>
+    <string name="food_protein_label">Protéine (g): </string>
+    <string name="food_fiber_label">Fibre (g): </string>
+    <string name="food_remove_favorites">Retirer des favoris</string>
+    <string name="food_tag">Étiquette: </string>
+    <string name="food_tag_not_set">Pas encore défini</string>
+    <string name="food_set_tag">Définir une balise</string>
+    <string name="food_add_favorites">Ajouter aux favoris</string>
+    <string name="food_exit_msg">Souhaitez-vous sortir? Vos favoris seront sauvegardés.</string>
+    <string name="food_add_msg">Votre article a été ajouté aux favoris.</string>
+    <string name="food_remove_msg">Votre article a été supprimé des favoris.</string>
+    <string name="food_tag_msg">Votre tag est défini.</string>
+    <string name="food_no_tag_msg">Aucune balise de ce type n\'existe.</string>
+    <string name="food_tag_info_title">Info sur le tag sélectionné</string>
+    <string name="food_max">Énergie maximale (kcal): </string>
+    <string name="food_min">Energie minimale (kcal): </string>
+    <string name="food_avg">Energie moyenne (kcal): </string>
+    <string name="food_total">Energie totale (kcal): </string>
+    <string name="food_input_tag">Balise d\'entrée</string>
+    <string name="food_info_button">Obtenir des infos</string>
+    <string name="food_go_favorites">Aller aux favoris</string>
+    <string name="food_search">Chercher</string>
+    <string name="food_insert_search">Insérer un élément de recherche</string>
+    <string name="food_activity_msg">Ceci est la base de données de la nutrition alimentaire</string>
+    <string name="food_search_info_msg">Les résultats de votre recherche seront affichés ci-dessous.</string>
+
+    <string name="news_title_abbr">Nouvelles</string>
+    <string name="news_goto">Aller à l\'article</string>
+    <string name="news_credits">Stat.</string>
+    <string name="news_stats">Statistiques des articles enregistré</string>
+    <string name="news_stats_articles">Num. d\'articles: </string>
+    <string name="news_stats_average">Nombre moyen de mots: </string>
+    <string name="news_stats_min">Nombre minimum de mots: </string>
+    <string name="news_stats_max">Nombre maximum de mots: </string>
+    <string name="news_error">Vous êtes déjà dans le Fil de nouvelles de CBC</string>
+    <string name="news_help">Auteur: Rae Ehret. \nVersion: 2 \nDans la liste des titres, cliquez sur un titre pour ouvrir un écran contenant plus d\'informations sur l\'article et un lien vers l\'article.</string>
+    <string name="news_exit">Revenir à l\'activité main?</string>
+    <string name="news_load">Enregistré</string>
+    <string name="news_save">Enregistrez l\'article</string>
+
+    <string name="movie_my_movies">Mes films</string>
+    <string name="movie_saveto">Enregistrer dans mes films</string>
+    <string name="movie_search">Chercher</string>
+    <string name="movie_info">Auteur: Zachary Seguin, MovieActivity 2.0
+        Choisissent un film du la list  sur la cote droite pour voir l\'information de cette film, tu peut aussi registrer les films a vos films pour regarder plus tard </string>
+    <string name="movie_toolBar">Films</string>
+    <string name="movie_toast">Bienvenue au les films</string>
+    <string name="movie_snack">Sauvegarder a vos films</string>
+
+    <string name="oc_main_text">OC Transpo</string>
+    <string name="oc_stop_hint">Entrez le numéro d\'arrêt ici ex \ "3075 \"</string>
+    <string name="oc_bus_hint">Enter Bus number here ex\"95\"</string>
+    <string name="oc_help">Auteur: Dylan Blake. \ nVersion: 2 \ nEntrez votre arrêt de bus dans la barre de recherche, cliquez sur Rechercher pour rechercher les résultats de cet arrêt.</string>
+    <string name="oc_stop">Arrêtez: </string>
+    <string name="oc_bus">Autobus:</string>
+    <string name="oc_destination">Destination</string>
+    <string name="oc_latitude">Latitude: </string>
+    <string name="oc_longitude">Longitude: </string>
+    <string name="oc_gps">Vitesse GPS:</string>
+    <string name="oc_start">Heure de début:</string>
+    <string name="oc_finish">Temps ajusté:</string>
+    <string name="oc_addfav">Ajouter aux Favoris</string>
+    <string name="oc_removefav">Supprimer des favoris</string>
+    <string name="oc_tool">Error</string>
+</resources>
